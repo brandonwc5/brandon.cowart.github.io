@@ -314,12 +314,6 @@
     .slider_area .slider_inner .rev_slider .tp-rightarrow::before {
         line-height: 35px;
     }
-    .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box.text_box2 .first_text {
-        color: #fff;
-    }
-    .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box.text_box2 .third_text {
-        color: #fff;
-    }
     .most_popular_item_area.menu_list_page .p_recype_item_main .media .media-body {
         border-left: 1px solid #b10400;
     }

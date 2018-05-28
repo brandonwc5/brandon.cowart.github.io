@@ -1104,7 +1104,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /* Bookink Table css
 ============================================================================================ */
 .booking_table_area {
-  background: url(../img/booking-table-bg.jpg) no-repeat fixed center center;
+  background: url(../img/pies.jpg) no-repeat fixed center center;
   background-size: cover;
   position: relative;
   z-index: 2;
@@ -3543,18 +3543,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   border-radius: 0px;
 }
 
-.slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box.text_box2 .bg_box {
-  background: rgba(255, 255, 255, 0.8);
-}
-
-.slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box.text_box2 .first_text {
-  color: #333333;
-}
-
-.slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box.text_box2 .third_text {
-  color: #333333;
-}
-
 .slider_area .slider_inner .rev_slider .tp-leftarrow {
   height: 110px;
   width: 30px;
@@ -3608,7 +3596,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .footer_widget_area {
   background: #181818;
-  padding: 100px 0px;
+  padding: 50px 0px 0px;
 }
 
 .about_widget p {

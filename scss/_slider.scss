@@ -26,7 +26,7 @@
                             color: #fff;
                             font-family: $can;
                         }
-                        .secand_text{
+                        .second_text{
                             color: $baseColor;
                             font-family: $op;
                             font-family: $vib;
@@ -47,17 +47,6 @@
                                 &:after{
                                     border-radius: 0px
                                 }
-                            }
-                        }
-                        &.text_box2{
-                            .bg_box{
-                                background: rgba(255, 255, 255, 0.8);
-                            }
-                            .first_text{
-                                color: $dip;
-                            }
-                            .third_text{
-                                color: $dip;
                             }
                         }
                     }
