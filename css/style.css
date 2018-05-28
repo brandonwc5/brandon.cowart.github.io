@@ -604,7 +604,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   transform: scale(1, 1);
 }
 
-.read_mor_btn {
+.readMoreBtn {
   background: transparent;
   text-align: center;
   width: 120px;
@@ -619,11 +619,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-.read_mor_btn i {
+.readMoreBtn i {
   padding-right: 5px;
 }
 
-.read_mor_btn:before {
+.readMoreBtn:before {
   content: '';
   position: absolute;
   top: 0;
@@ -638,7 +638,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s;
 }
 
-.read_mor_btn:after {
+.readMoreBtn:after {
   content: '';
   position: absolute;
   top: 0;
@@ -657,18 +657,18 @@ body, p, h1, h2, h3, h4, h5, h6 {
   transform: scale(1.2, 1.2);
 }
 
-.read_mor_btn:hover {
+.readMoreBtn:hover {
   color: #fff;
 }
 
-.read_mor_btn:hover:before {
+.readMoreBtn:hover:before {
   opacity: 0;
   -webkit-transform: scale(0.5, 0.5);
   -ms-transform: scale(0.5, 0.5);
   transform: scale(0.5, 0.5);
 }
 
-.read_mor_btn:hover:after {
+.readMoreBtn:hover:after {
   opacity: 1;
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
@@ -1511,7 +1511,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding: 5px 0px 15px 0px;
 }
 
-.most_popular_item_area .p_recype_item_main .media .media-body .read_mor_btn {
+.most_popular_item_area .p_recype_item_main .media .media-body .readMoreBtn {
   line-height: 30px;
   text-transform: capitalize;
   width: 110px;
@@ -3148,7 +3148,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /* Banner area css
 ============================================================================================ */
 .banner_area {
-  background: url(../img/banner/banner-bg-1.jpg) no-repeat scroll center center;
+  background: url(../img/gallery/breakfast/photo-1495214783159-3503fd1b572d.jpg) no-repeat scroll center center;
   background-size: cover;
   min-height: 450px;
 }
@@ -3159,9 +3159,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .banner_area .banner_content h4 {
-  color: #fff;
-  font-family: "Cantata One", serif;
-  font-size: 36px;
+  color: #fbf4f4;
+  font-family: 'Sura', serif;
+  font-size: 50px;
   padding-bottom: 15px;
   text-transform: uppercase;
 }
@@ -3198,7 +3198,162 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .banner_area .banner_content a.active {
   color: #b10400;
 }
+/* Entrees Banner */
+.entrees_banner {
+  background: url(../img/gallery/entrees/banner.jpg) no-repeat scroll center center;
+  background-size: cover;
+  min-height: 450px;
+}
+.entrees_banner .banner_content {
+  text-align: center;
+  padding: 220px 0px 0px 0px;
+}
 
+.entrees_banner .banner_content h4 {
+  color: #794c4c;
+  font-family: 'Sura', serif;
+  font-size: 50px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.entrees_banner .banner_content a {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  margin-right: 15px;
+  position: relative;
+}
+
+.entrees_banner .banner_content a:last-child {
+  margin-right: 0px;
+}
+
+.entrees_banner .banner_content a:last-child:before {
+  display: none;
+}
+
+.entrees_banner .banner_content a:before {
+  content: "/";
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  position: absolute;
+  right: -14px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.entrees_banner .banner_content a.active {
+  color: #b10400;
+}
+
+/* Desserts Banner */
+.desserts_banner {
+  background: url(../img/gallery/desserts/hd.jpg) no-repeat scroll center center;
+  background-size: cover;
+  min-height: 450px;
+}
+.desserts_banner .banner_content {
+  text-align: center;
+  padding: 220px 0px 0px 0px;
+}
+
+.desserts_banner .banner_content h4 {
+  color: #fff;
+  font-family: 'Song Myung', serif;
+  font-size: 70px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.desserts_banner .banner_content a {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  margin-right: 15px;
+  position: relative;
+}
+
+.desserts_banner .banner_content a:last-child {
+  margin-right: 0px;
+}
+
+.desserts_banner .banner_content a:last-child:before {
+  display: none;
+}
+
+.desserts_banner .banner_content a:before {
+  content: "/";
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  position: absolute;
+  right: -14px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.desserts_banner .banner_content a.active {
+  color: #b10400;
+}
+
+/* Settings Banner */
+.settings_banner {
+  background: url(../img/gallery/settings/setting2.jpeg) no-repeat scroll center center;
+  background-size: cover;
+  min-height: 450px;
+}
+
+.settings_banner .banner_content {
+  text-align: center;
+  padding: 220px 0px 0px 0px;
+}
+
+.settings_banner .banner_content h4 {
+  color: #fbf4f4;
+  font-family: 'Sura', serif;
+  font-size: 50px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.settings_banner .banner_content a {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  margin-right: 15px;
+  position: relative;
+}
+
+.settings_banner .banner_content a:last-child {
+  margin-right: 0px;
+}
+
+.settings_banner .banner_content a:last-child:before {
+  display: none;
+}
+
+.settings_banner .banner_content a:before {
+  content: "/";
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  position: absolute;
+  right: -14px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.settings_banner .banner_content a.active {
+  color: #b10400;
+}
 /* End Banner area css
 ============================================================================================ */
 /*---------------------------------------------------- */
