@@ -62,6 +62,7 @@ a:hover, a:focus {
 body {
   line-height: 24px;
   font-size: 15px;
+  background-color:#a1f72f12;
 }
 
 body, p, h1, h2, h3, h4, h5, h6 {
@@ -317,12 +318,18 @@ body, p, h1, h2, h3, h4, h5, h6 {
   z-index: 8;
 }
 .logo{
-  border-bottom: 14px;
+  padding-top:20px;
+  border-bottom: 7px;
 }
 .headContact{
   font-size: 12px;
   font-family: "Cantata One";
   color: #d6d6d6;
+}
+.headContact2{
+  font-size: 12px;
+  font-family: "Cantata One";
+  color: #b52228;
 }
 .first_header .header_contact_details a {
   font-size: 12px;
@@ -331,6 +338,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   line-height: 50px;
   transition: all 400ms linear 0s;
   padding-right: 20px;
+  display:inline-block;
 }
 
 .first_header .header_contact_details a i {
@@ -3148,7 +3156,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /* Banner area css
 ============================================================================================ */
 .banner_area {
-  background: url(../img/gallery/breakfast/photo-1495214783159-3503fd1b572d.jpg) no-repeat scroll center center;
+  background: url(../img/gallery/galleria/photo-1523221007758-aa51505fe180.jpg) no-repeat scroll center center;
   background-size: cover;
   min-height: 450px;
 }
@@ -3196,6 +3204,57 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .banner_area .banner_content a.active {
+  color: #b10400;
+}
+/* Breakfast Banner */
+.breakfastBanner {
+  background: url(../img/gallery/breakfast/photo-1495214783159-3503fd1b572d.jpg) no-repeat scroll center center;
+  background-size: cover;
+  min-height: 450px;
+}
+.breakfastBanner .banner_content {
+  text-align: center;
+  padding: 220px 0px 0px 0px;
+}
+
+.breakfastBanner .banner_content h4 {
+  color: #f7f7f7;
+  font-family: 'Sura', serif;
+  font-size: 50px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.breakfastBanner .banner_content a {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  margin-right: 15px;
+  position: relative;
+}
+
+.breakfastBanner .banner_content a:last-child {
+  margin-right: 0px;
+}
+
+.breakfastBanner .banner_content a:last-child:before {
+  display: none;
+}
+
+.breakfastBanner .banner_content a:before {
+  content: "/";
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  position: absolute;
+  right: -14px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.breakfastBanner .banner_content a.active {
   color: #b10400;
 }
 /* Entrees Banner */
@@ -3741,7 +3800,8 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /* Footer area css
 ============================================================================================ */
 .f_w_title {
-  padding-bottom: 55px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #4a4646
 }
 
 .f_w_title h4 {
