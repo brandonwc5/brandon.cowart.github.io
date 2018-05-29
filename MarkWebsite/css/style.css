@@ -1566,7 +1566,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /* Our Chef area css
 ============================================================================================ */
 .our_chefs_area {
-  background: #f7f7f7;
+  background: url(../img/gallery/galleria/art-deco-frame-clipart-3.jpg) center;
+  background-size:cover;
+  /* background: #f7f7f7; */
   padding: 100px 0px;
 }
 
