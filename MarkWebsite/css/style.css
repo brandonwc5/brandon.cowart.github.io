@@ -1566,7 +1566,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /* Our Chef area css
 ============================================================================================ */
 .our_chefs_area {
-  background: url(../img/gallery/galleria/art-deco-frame-clipart-3.jpg) center;
+  background: url(../img/gallery/galleria/Border_Deco_Frame_PNG_Gold_Clip_Art.png)  fixed center center;
   background-size:cover;
   /* background: #f7f7f7; */
   padding: 100px 0px;
@@ -3990,14 +3990,14 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .copy_right_area .pull-left h5 {
-  color: #fff;
+  color: #121212;
   line-height: 80px;
   font-family: 14px;
   font-family: "Open Sans", sans-serif;
 }
 
 .copy_right_area .pull-left h5 a {
-  color: #b10400;
+  color:#121212;
 }
 
 .copy_right_area .pull-right .navbar-nav.navbar-right li {
