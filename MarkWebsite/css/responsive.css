@@ -10,15 +10,13 @@
     .main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li {
         margin-right: 20px;
     }
-    .first_header .event_btn_inner {
+    .first_header #actualBtn {
         margin-right: -100px;
+        margin-left: 60px
     }
 
     .chefs_slider_active .chef_item_inner .chef_img .chef_hover h4 {
         margin: 10px 0px 20px 0px;
-    }
-    .next_event_area .next_event_slider .left_event_img img{
-        min-height: 306px;
     }
 /*
     .about_us_content .about_inner_item .about_right_ms .about_ms_item {
@@ -40,6 +38,7 @@
     }
     .first_header .event_btn_inner {
         padding-bottom: 12px;
+        margin-left:60px;
     }
     .main_menu_area {
         top: 112px;
@@ -76,10 +75,6 @@
     }
     .service_area .row{
         margin-top: -80px;
-    }
-
-    .next_event_area .next_event_slider .left_event_img img{
-        min-height: auto;
     }
     .footer_area .footer_widget_area .col-md-3{
         margin-top: 50px;
@@ -173,11 +168,8 @@
     .main_menu_area {
         top: 100px;
     }
-    .next_event_area .next_event_slider .right_event_text {
-        padding-left: 20px;
-    }
-    .next_event_area .next_event_slider .right_event_text .event_shedule .item {
-        margin-bottom: 20px;
+    .quote{
+        margin-left:20px;
     }
     .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .bg_box {
         display: none;

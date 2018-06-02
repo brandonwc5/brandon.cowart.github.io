@@ -11,9 +11,8 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Redcaynne.";
+    $subject = "You have a message from your website.";
 
-    $logo = 'http://srthemes.com/demo/redcaynne/img/logo-1.png';
     $link = '#';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Email</title></head><body>";

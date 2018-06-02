@@ -554,9 +554,6 @@
 .fa-icon-bar-chart:before {
   content: "\f080";
 }
-.fa-icon-twitter-square:before {
-  content: "\f081";
-}
 .fa-icon-facebook-square:before {
   content: "\f082";
 }
@@ -623,9 +620,6 @@
 }
 .fa-icon-phone-square:before {
   content: "\f098";
-}
-.fa-icon-twitter:before {
-  content: "\f099";
 }
 .fa-icon-facebook-f:before,
 .fa-icon-facebook:before {

@@ -99,23 +99,6 @@
     }
     chefs_slider(); 
     
-    /*----------------------------------------------------*/
-    /*  Next Event Slider
-    /*----------------------------------------------------*/
-    function next_event_slider(){
-        if ( $('.next_event_slider').length ){
-            $('.next_event_slider').owlCarousel({
-                loop:true,
-                margin:30,
-                items: 1,
-                nav:false,
-                autoplay: false,
-                smartSpeed: 1800,
-            })
-        }
-    }
-    next_event_slider(); 
-    
     
     /*----------------------------------------------------*/
     /*  Date Active function

@@ -337,7 +337,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   color: #b10400;
 }
 
-.first_header .event_btn {
+.first_header #actualBtn {
   text-align: center;
 }
 
@@ -393,7 +393,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   background: transparent;
   border: none;
   border-radius: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 0px; 
 }
 
 .main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li {
@@ -520,25 +520,26 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /*----------------------------------------------------*/
 /* Event Button css
 ============================================================================================ */
-.event_btn {
-  background: transparent;
+#actualBtn {
+  background: #252020;
   text-align: center;
   width: 150px;
   font-family: "Cantata One", serif;
-  color: #fff;
+  color: #252020;
   line-height: 50px;
   display: inline-block;
   font-size: 14px;
   z-index: 2;
   position: relative;
   letter-spacing: .42px;
+  margin-left:60px;
 }
 
-.event_btn i {
+#actualBtn i {
   padding-right: 5px;
 }
 
-.event_btn:before {
+#actualBtn:before {
   content: '';
   position: absolute;
   top: 0;
@@ -553,7 +554,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s;
 }
 
-.event_btn:after {
+#actualBtn:after {
   content: '';
   position: absolute;
   top: 0;
@@ -572,24 +573,23 @@ body, p, h1, h2, h3, h4, h5, h6 {
   transform: scale(1.2, 1.2);
 }
 
-.event_btn:hover {
+#actualBtn:hover {
   color: #fff;
 }
 
-.event_btn:hover:before {
+#actualBtn:hover:before {
   opacity: 0;
   -webkit-transform: scale(0.5, 0.5);
   -ms-transform: scale(0.5, 0.5);
   transform: scale(0.5, 0.5);
 }
 
-.event_btn:hover:after {
+#actualBtn:hover:after {
   opacity: 1;
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
 }
-
 .readMoreBtn {
   background: transparent;
   text-align: center;
@@ -820,7 +820,24 @@ body, p, h1, h2, h3, h4, h5, h6 {
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
 }
-
+#review{
+  margin-top: 20px;
+  border:2px solid red;
+}
+#innerQuote{
+  padding-top:10px;
+  padding-bottom:8px;
+  padding-left:10px;
+  padding-right:7px;
+}
+#markQuote{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+#aboutypc{
+  padding-top:8px;
+  line-height: 28px;
+}
 /* End Event Button css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -1681,128 +1698,18 @@ body, p, h1, h2, h3, h4, h5, h6 {
   color: #666666;
   padding-top: 15px;
 }
-
+#aboot{
+  border-radius:2%;
+}
+.review1{
+  border-radius:50%;
+  height: 35px;
+}
 /* End About us area css
 ============================================================================================ */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
-/* Nex Event area css
-============================================================================================ */
-.next_event_area {
-  padding: 100px 0px;
-  background: url(../img/next-event/next-event-bg.jpg) no-repeat scroll center center;
-  background-size: cover;
-  position: relative;
-  z-index: 2;
-}
 
-.next_event_area:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.7);
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  left: 0;
-  top: 0;
-  position: absolute;
-}
-
-.next_event_area .s_white_red_title {
-  padding-bottom: 60px;
-}
-
-.next_event_area .s_white_red_title h2 {
-  padding-bottom: 0px;
-}
-
-.next_event_area .next_event_slider .right_event_text {
-  padding-left: 40px;
-  background: #fff;
-  padding-bottom: 33px;
-}
-
-.next_event_area .next_event_slider .right_event_text h3 {
-  font-size: 18px;
-  font-family: "Cantata One", serif;
-  color: #333333;
-  padding-bottom: 15px;
-  padding-top: 30px;
-}
-
-.next_event_area .next_event_slider .right_event_text h3:hover {
-  color: #b10400;
-}
-
-.next_event_area .next_event_slider .right_event_text p {
-  line-height: 26px;
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-  color: #666666;
-  padding-bottom: 20px;
-}
-
-.next_event_area .next_event_slider .right_event_text p a {
-  font-weight: bold;
-  color: #333333;
-}
-
-.next_event_area .next_event_slider .right_event_text p a:hover {
-  color: #b10400;
-}
-
-.next_event_area .next_event_slider .right_event_text .event_shedule .item {
-  background: #b10400;
-  padding: 17px 0px;
-  position: relative;
-  min-width: 70px;
-  max-width: 70px;
-  width: 100%;
-  display: inline-block;
-  text-align: center;
-  font-size: 36px;
-  font-family: "Cantata One", serif;
-  color: #fff;
-  margin-right: 20px;
-}
-
-.next_event_area .next_event_slider .right_event_text .event_shedule .item .label {
-  display: inline-block;
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-  padding: 0px;
-}
-
-.next_event_area .next_event_slider .right_event_text .event_shedule .separator {
-  display: none;
-}
-
-.next_event_area .next_event_slider .owl-controls .owl-dots {
-  text-align: center;
-  margin-top: 55px;
-}
-
-.next_event_area .next_event_slider .owl-controls .owl-dots .owl-dot {
-  height: 13px;
-  width: 13px;
-  background: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 10px;
-  transition: all 400ms linear 0s;
-}
-
-.next_event_area .next_event_slider .owl-controls .owl-dots .owl-dot:hover, .next_event_area .next_event_slider .owl-controls .owl-dots .owl-dot.active {
-  background: #b10400;
-}
-
-.next_event_area .next_event_slider .owl-controls .owl-dots .owl-dot:last-child {
-  margin-right: 0;
-}
-
-/* End Nex Event area css
-============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
 
 /* Right Sidebar area css
 ============================================================================================ */
@@ -2150,19 +2057,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding-bottom: 20px;
 }
 
-.comment_list_area .media .media-body .event_btn {
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-  width: 70px;
-  height: 30px;
-  line-height: 30px;
-  text-transform: uppercase;
-}
-
-.comment_list_area .media .media-body .event_btn:hover {
+.comment_list_area .media .media-body #actualBtn:hover {
   color: #b10400;
 }
-
 .comment_list_area .media.comment_reply {
   max-width: 650px;
   float: right;
@@ -2995,30 +2892,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
 }
 
-.twitter_widget ul li {
-  font-size: 14px;
-  line-height: 28px;
-  font-family: "Open Sans", sans-serif;
-  color: #fff;
-  margin-bottom: 25px;
-}
-
-.twitter_widget ul li a {
-  color: #fff;
-  font-size: 14px;
-  line-height: 28px;
-  font-family: "Open Sans", sans-serif;
-  transition: all 400ms linear 0s;
-}
-
-.twitter_widget ul li:last-child {
-  margin-bottom: 0;
-}
-
-.twitter_widget ul li:hover a {
-  color: #b10400;
-}
-
 .gallery_widget ul {
   margin-right: -10px;
   margin-top: -10px;
@@ -3156,9 +3029,3 @@ body, p, h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background: #b10400;
 }
-
-/* End Footer area css
-============================================================================================ */
-/*---------------------------------------------------- */
-
-/*# sourceMappingURL=style.css.map */
