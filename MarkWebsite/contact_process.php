@@ -1,6 +1,5 @@
 <?php
-
-    $to = "backpiper.com@gmail.com";
+    $to = "markcharlesypc@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -17,7 +16,7 @@
     $logo = 'http://srthemes.com/demo/redcaynne/img/logo-1.png';
     $link = '#';
 
-	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Redcaynne Mail</title></head><body>";
+	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Email</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
 	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
 	$body .= "<a href='{$link}'><img src='{$logo}' alt=''></a><br><br>";

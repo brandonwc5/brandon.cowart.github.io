@@ -64,36 +64,7 @@
     
     /* Optional js */
     
-    /*----------------------------------------------------*/
-    /*  Blog Slider
-    /*----------------------------------------------------*/
-    function blog_slider(){
-        if ( $('.feature_slider').length ){
-            $('.feature_slider').owlCarousel({
-                loop:true,
-                margin:30,
-                items: 3,
-                nav:true,
-                autoplay: false,
-                smartSpeed: 1800,
-                navContainer: '.feature_slider',
-                navText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>'],
-                responsive:{
-                    0:{
-                        items:1
-                    },
-                    480:{
-                        items:2
-                    },
-                    768:{
-                        items:3
-                    }
-                }
-            })
-        }
-    }
-    blog_slider();
-    
+   
     
     /*----------------------------------------------------*/
     /*  Chef Slider
@@ -145,24 +116,6 @@
     }
     next_event_slider(); 
     
-    /*----------------------------------------------------*/
-    /*  Blog Gallery Slider
-    /*----------------------------------------------------*/
-    function blog_gallery_slider(){
-        if ( $('.blog_gallery_slider').length ){
-            $('.blog_gallery_slider').owlCarousel({
-                loop:true,
-                margin:0,
-                items: 1,
-                nav:true,
-                autoplay: false,
-                smartSpeed: 1800,
-                navContainer: '.blog_gallery_slider',
-                navText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>'],
-            })
-        }
-    }
-    blog_gallery_slider(); 
     
     /*----------------------------------------------------*/
     /*  Date Active function
