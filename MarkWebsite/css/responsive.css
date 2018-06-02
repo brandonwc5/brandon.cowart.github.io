@@ -82,6 +82,18 @@
     .footer_area .footer_widget_area .col-md-3:first-child{
         margin-top: 0px;
     }
+    .footer_area .footer_widget_area .col-md-4{
+        margin-top: 50px;
+    }
+    .footer_area .footer_widget_area .col-md-4:first-child{
+        margin-top: 0px;
+    }
+    .footer_area .footer_widget_area .col-md-2{
+        margin-top: 50px;
+    }
+    .footer_area .footer_widget_area .col-md-2:first-child{
+        margin-top: 0px;
+    }
     .gallery_widget ul{
         max-width: 260px;
     }
