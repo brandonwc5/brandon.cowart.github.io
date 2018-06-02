@@ -52,34 +52,6 @@
                     }
                 }
             }
-            .tp-leftarrow{
-                height: 110px;
-                width: 30px;
-                text-align: center;
-                background: rgba(0, 0, 0, .5);
-                z-index: 6;
-                @include transition;
-                &:before{
-                    line-height: 110px;
-                }
-                &:hover{
-                    background: rgba(0, 0, 0, .9);
-                }
-            }
-            .tp-rightarrow{
-                height: 110px;
-                width: 30px;
-                text-align: center;
-                background: rgba(0, 0, 0, .5);
-                z-index: 6;
-                @include transition;
-                &:before{
-                    line-height: 110px;
-                }
-                &:hover{
-                    background: rgba(0, 0, 0, .9);
-                }
-            }
         }
     }
 }

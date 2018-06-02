@@ -186,52 +186,7 @@
         todayBtn: true,
         startView: 2,
         pickerPosition: "bottom-right"
-    });
-    
-    
-    /*----------------------------------------------------*/
-    /*  Popular Recype Activate isotope in container
-    /*----------------------------------------------------*/
-    function popular_recype(){
-        if ( $('.p_recype_item_inner').length ){
-            $('.p_recype_item_inner').imagesLoaded(function(){
-                $('.p_recype_item_inner').isotope({
-                    itemSelector: '.portfolio-g .col-md-6',
-                    layoutMode: 'fitRows',
-                    percentPosition:true,
-                    masonry: {
-                        columnWidth: 1,
-                    }            
-                })
-            });
-        }
-    }
-    popular_recype();
-    
-    /*----------------------------------------------------*/
-    /*  Popular Recype Activate isotope click function
-    /*----------------------------------------------------*/
-    function popular_recype_click(){
-        if ( $('.popular_filter').length ){
-            jQuery(".popular_filter li").click(function(){
-                jQuery(".popular_filter li").removeClass("active");
-                jQuery(this).addClass("active");
-
-                var selector = jQuery(this).attr("data-filter");
-                jQuery(".p_recype_item_active").isotope({
-                    filter: selector,
-                    animationOptions: {
-                    duration: 758,
-                    easing: "linear",
-                    queue: false,
-                    }
-                });
-                return false;
-            });
-        }
-    }
-    popular_recype_click();
-    
+    });    
     
     $('.event_shedule time').countDown();
     
@@ -257,37 +212,6 @@
     $("#my-calendar").zabuto_calendar({
         today: true,
     });
-    
-    
-    
-    /*----------------------------------------------------*/
-    /*  Google map js
-    /*----------------------------------------------------*/
-    
-    if ( $('#mapBox').length ){
-        var $lat = $('#mapBox').data('lat');
-        var $lon = $('#mapBox').data('lon');
-        var $zoom = $('#mapBox').data('zoom');
-        var $marker = $('#mapBox').data('marker');
-        var $info = $('#mapBox').data('info');
-        var $markerLat = $('#mapBox').data('mlat');
-        var $markerLon = $('#mapBox').data('mlon');
-        var map = new GMaps({
-            el: '#mapBox',
-            lat: $lat,
-            lng: $lon,
-            scrollwheel: false,
-            scaleControl: true,
-            streetViewControl: false,
-            panControl: true,
-            disableDoubleClickZoom: true,
-            mapTypeControl: false,
-            zoom: $zoom,
-                styles: [{"featureType":"water","stylers":[{"saturation":43},{"lightness":-11},{"hue":"#0088ff"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"hue":"#ff0000"},{"saturation":-100},{"lightness":99}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"color":"#808080"},{"lightness":54}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"color":"#ece2d9"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#ccdca1"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#767676"}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#b8cb93"}]},{"featureType":"poi.park","stylers":[{"visibility":"on"}]},{"featureType":"poi.sports_complex","stylers":[{"visibility":"on"}]},{"featureType":"poi.medical","stylers":[{"visibility":"on"}]},{"featureType":"poi.business","stylers":[{"visibility":"simplified"}]}]
-            });
-        }
-    
-    
     
     /*----------------------------------------------------*/
     /*Loading function*/
